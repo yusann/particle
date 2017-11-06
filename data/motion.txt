@@ -1,0 +1,3 @@
+	data/MOTION/PLAYER/motion00.txt
+	data/MOTION/ENEMY/motion00.txt
+END_LOAD

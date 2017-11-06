@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\utlity">
+      <UniqueIdentifier>{57063650-5c34-49c3-9c24-b68b2b00fc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\utlity">
+      <UniqueIdentifier>{dbb07e10-9032-4f8b-a95d-a47b4b779dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\renderer">
+      <UniqueIdentifier>{29731386-1797-4d95-9cbd-6d0870d3fe5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\renderer">
+      <UniqueIdentifier>{efff1477-91ed-48e1-9a30-d36d53aec836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{e877cfbe-d4f1-4f8c-937a-018b0359e186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object">
+      <UniqueIdentifier>{afe8da64-688f-498e-9a7b-f459650e0e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object\mesh">
+      <UniqueIdentifier>{eacc9ba0-0749-4c55-b257-22100d817d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\mesh">
+      <UniqueIdentifier>{bf3d3eb4-aa2b-47dd-9fc0-3ec4179d2a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\imGui">
+      <UniqueIdentifier>{645330da-4963-480d-980a-646e2864852d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object\motionX">
+      <UniqueIdentifier>{31b832e0-6c19-490e-be59-1c10423ed6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\motionX">
+      <UniqueIdentifier>{f77340a0-9a49-4559-b138-8c240da5cc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\resource">
+      <UniqueIdentifier>{93e5f268-e8b5-4b6a-9b97-da516cc8c225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\resource">
+      <UniqueIdentifier>{f6a35b40-d6a0-483d-9f91-2092730077cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\utlity</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\utlity</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneBillboard.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2D.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneModelX.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\utlity</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="meshCube.cpp">
+      <Filter>ソース ファイル\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneMesh.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="motionPartsX.cpp">
+      <Filter>ソース ファイル\object\motionX</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="meshSphere.cpp">
+      <Filter>ソース ファイル\object\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneMotionPartsX.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="modelX.cpp">
+      <Filter>ソース ファイル\resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\utlity</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\utlity</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneBillboard.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2D.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneModelX.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\utlity</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="meshCube.h">
+      <Filter>ヘッダー ファイル\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneMesh.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>ソース ファイル\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="motionPartsX.h">
+      <Filter>ヘッダー ファイル\object\motionX</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="meshSphere.h">
+      <Filter>ヘッダー ファイル\object\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneMotionPartsX.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="modelX.h">
+      <Filter>ヘッダー ファイル\resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

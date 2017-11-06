@@ -1,0 +1,22 @@
+SET_MODEL
+	data/MODEL/player.x
+	data/MODEL/enemy000.x
+	data/MODEL/block00.x
+END_MODEL
+SET_PART
+	data/MOTION/PLAYER/body_00.x
+	data/MOTION/PLAYER/head_00.x
+	data/MOTION/PLAYER/head_01.x
+	data/MOTION/PLAYER/armR_00.x
+	data/MOTION/PLAYER/handR_00.x
+	data/MOTION/PLAYER/armL_00.x
+	data/MOTION/PLAYER/handL_00.x
+	data/MOTION/PLAYER/legR_00.x
+	data/MOTION/PLAYER/footR_00.x
+	data/MOTION/PLAYER/legL_00.x
+	data/MOTION/PLAYER/footL_00.x
+	data/MOTION/ENEMY/body_00.x
+	data/MOTION/ENEMY/footR_00.x
+	data/MOTION/ENEMY/footL_00.x
+END_PART
+END_LOAD
