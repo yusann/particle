@@ -36,6 +36,8 @@
 #include "sceneMotionPartsX.h"
 #include "player.h"
 
+#include "paticle.h"
+
 //*****************************************************************************
 //   静的メンバー変数宣言
 //*****************************************************************************
@@ -46,6 +48,7 @@ CCamera *CManager::m_pCamera = NULL;
 CLight *CManager::m_pLight = NULL;
 CMeshField *CManager::m_pMeshField = NULL;
 CSound *CManager::m_pSound = NULL;
+CPaticle *CManager::m_pPaticle = NULL;
 
 //==================================================================================================================================================
 //   コンストラクタ
@@ -100,6 +103,9 @@ HRESULT CManager::Init( HINSTANCE hInstance, HWND hWnd, BOOL bWindow )
 	m_pMeshField = CMeshField::Create();
 	CPlayer::Create(D3DXVECTOR3(0.0f,0.0f,0.0f));
 
+	m_pPaticle = new CPaticle;
+	m_pPaticle->Init();
+
 
 	ImGui_ImplDX9_Init(hWnd, GetRenderer()->GetDevice());
 
@@ -112,6 +118,8 @@ HRESULT CManager::Init( HINSTANCE hInstance, HWND hWnd, BOOL bWindow )
 //==================================================================================================================================================
 void CManager::Uninit(void)
 {
+
+	m_pPaticle->Uninit();
 	// オブジェクトの破棄
 	CScene::ReleaseAll();
 
@@ -158,6 +166,8 @@ void CManager::Update(void)
 
 	// 更新処理
 	CScene::UpdateAll();        // シーン
+
+	m_pPaticle->Update();
 }
 
 //==================================================================================================================================================
@@ -173,6 +183,8 @@ void CManager::Draw(void)
 	{
 		// 描画処理
 		CScene::DrawAll();             // シーン
+
+		m_pPaticle->Draw();
 
 		//
 		ImGui::Render();

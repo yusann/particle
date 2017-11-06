@@ -28,6 +28,7 @@ class CTexture;
 class CCamera;
 class CLight;
 class CMeshField;
+class CPaticle;
 
 extern LRESULT ImGui_ImplDX9_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
@@ -59,6 +60,7 @@ public:
 	static CLight *GetLight(void);
 	static CMeshField *GetMeshField(void);
 	static CSound    *GetSound() { return m_pSound; }
+	static CPaticle  *GetPaticle() { return m_pPaticle; }
 
 private:
 	static CRenderer *m_pRenderer;            // ÉåÉìÉ_ÉâÅ[
@@ -68,6 +70,7 @@ private:
 	static CLight *m_pLight;
 	static CMeshField *m_pMeshField;
 	static CSound *m_pSound;
+	static CPaticle *m_pPaticle;
 };
 
 #endif
